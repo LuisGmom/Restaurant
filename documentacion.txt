@@ -1,0 +1,117 @@
+Todos los cambios realizados al template, fueron realizados unicamente para el aprendisaje del desarrollo front-end, el uso de dicho template se hizo sin fines comerciales.
+
+
+
+Se utiliza el template Delicious, se realizan cambios en la sección del menu agregando nuevos elementos y cambiando el contenido.
+
+Breacrumbs:
+
+-> Se hacen nuevos estilos en el breacrumbs se agrega la clase .img-bg la cual aplica una imagen al background se asigna el alto de 300px un margin y padding 0.
+
+Why us:
+ 
+-> En la seccion de why us se modifica el titulo como Nuestras ensaladas y con nuevo contenido y tambien se agrega la clase .space-row la cual asigna un margin-top de 10px en esta misma sección se crea una clase llamada circulo dentro del div con clase box con el fin de crear un circulo para dar una impresion a tarjeta para colgar se incorpora la clase .circulo al hover establecido en la clase box, se duplica la seccion de why us para crear una seccion llamada Nuestros Cortes con contenido diferente de imagenes y informacion en esta misma se incorpora una clase llamada cortes dentro de esta se asigna un centrado para la imagen con text-align: center; un margin-top: 10px
+
+About: 
+
+-> Se aplica el cambio de background-color: #ffffff10; a la clase about.
+
+-> Se agregan los propiedades:valor a las clases de los elementos a y span ubicados en la seccion de menu:
+
+  background: #00070050;
+  border-radius: 5px;
+
+General:
+
+-> se cambian los colores de tipograifia de varios elementos modificando las clases .section-title con la propiedad:valor: color: #bbaeae;
+
+
+Clases: 
+
+.img-bg {
+    background-image: url(../img/imagenes/hero/brasa-barbacoa-parrilla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+.space-row{
+    margin-top: 10px;
+}
+
+.circulo {
+  border-radius: 100%;
+  border: 2px solid rgb(128, 128, 128, 0.7);
+  background-color: rgba(204, 198, 189, 0.1);
+  width: 25px; height: 25px;
+  margin: 0 auto;
+}
+.why-us .box:hover .circulo {
+  background-color: #fff;
+}
+.cortes {
+  text-align: center;
+  margin-top: 5px;
+}
+.cortes img{
+  width: 150px; height: 150px;
+  border-radius: 25px;
+}
+
+
+About: 
+
+Restaurante Buenardo el placer para el paladar y disfrute sin igual
+
+
+Menu/Why us:
+
+------Nuestras ensaladas:
+
+--Clasica
+Lechuga, repollo, tomate, culantro, limón, cuadritos de queso, aguacate y aderezo a escoger.
+
+--Cesar
+Lechuga, albahaca, tomate, aderezo cesar, crotones, queso parmesano y trozos de pollo.
+
+--Especial
+Lechuga, repollo, pepino, albahaca, trozos de pollo, vinagreta dulce(a elegir), cuadritos de queso, aguacate.
+
+Ensalada de Pollo
+Lechuga, tomate, albahaca, cuadritos de queso, queso parmesano, aderezo(a elegir) y pechuga de pollo.
+
+En salada de Atún
+Lechuga, tomate, albahaca, aderezo(a elegir) y trozos de atún(asado o a elegir).
+
+De la barra
+Libre elección de los ingredientes para la ensalada.
+
+
+------Nuestras Carnes: 
+
+
+Porterhouse
+Corte Porterhouse de 600g asado y sellado a la plancha con finas hierbas.
+
+Pollo Asado
+Pollo asado entero con madero de manzano preparado con finas especias.
+
+T-Bone
+Corte T-Bone 600g asado y sellado a la plancha con finas hierbas.
+
+
+Costillas de cerdo
+Costilla de cerdo ahumada y sellada a la plancha preparado con finas hierbas.
+
+
+Todos los cortes
+Traen una guarnicion y una ensalada mas la bebida a elegir, las bebidas pueden ser:
+
+Bebidas Alcoholicas
+Refrescos Gasesos
+Refrescos Naturales
+
+
+Proximamente
+Solicita la informacion de nuestros combos de temporada enviando un correo electrico por medio de nuestra página web, haciendo una llamada a nuestra linea telefonica o directamente en el restaurante.
