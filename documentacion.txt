@@ -1,7 +1,5 @@
 Todos los cambios realizados al template, fueron realizados unicamente para el aprendisaje del desarrollo front-end, el uso de dicho template se hizo sin fines comerciales.
 
-
-
 Se utiliza el template Delicious, se realizan cambios en la sección del menu agregando nuevos elementos y cambiando el contenido.
 
 Breacrumbs:
@@ -115,3 +113,7 @@ Refrescos Naturales
 
 Proximamente
 Solicita la informacion de nuestros combos de temporada enviando un correo electrico por medio de nuestra página web, haciendo una llamada a nuestra linea telefonica o directamente en el restaurante.
+
+
+
+El día 14/11/2022 se realiza modificación en la página del restaurante, se hace la separación de las secciones about y contact para la mejora de la experiencia de usuario. 
