@@ -664,8 +664,30 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+/*
+  Only for about page
+*/
+.spacing-section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.inf-about {
+  color: #000000;
+  padding: 0 20px;
+}
+.inf-about h3 {
+font-weight: 400;
+font-size: 34px;
+}
+.inf-about p{
+  font-size: 15px;
+  text-align: justify;
+}
+/*
+  End class for about page
+*/
 .about {
-  background-color: #ffffff10;
+  background-color: #ffffff0c;
 }
 
 .about .content {
@@ -675,7 +697,8 @@ section {
 .about .content h3 {
   font-weight: 400;
   font-size: 34px;
-  color: #5f5950;
+  color: #ccbfab;
+  /*color: #5f5950;*/
 }
 
 .about .content h4 {
@@ -911,6 +934,12 @@ section {
 .why-us .box:hover .circulo {
   background-color: #fff;
 }
+
+@media (max-width: 995px) {
+  .why-us {
+    display: none;
+  }
+}
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
@@ -1041,6 +1070,12 @@ section {
 
 .specials .details p:last-child {
   margin-bottom: 0;
+}
+
+@media (max-width: 995px) {
+  .menu {
+    background-color: #35312b63;
+  }
 }
 
 @media (max-width: 992px) {
